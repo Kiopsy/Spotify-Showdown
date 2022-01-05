@@ -44,6 +44,15 @@ section{
     margin: 0px;
 }
 
+/*want to change height to 6, but rest of elements in navbar have too much headroom*/
+#navBar{
+    padding-top: 0px;
+    width: 100vw;
+    height: 7vh;
+
+    background-color: #191414;
+}
+
 #navBar button{
     font-size: 15px;
 
@@ -53,21 +62,14 @@ section{
     border-radius: 5px;
 }
 
-#navBar{
-    width: 100vw;
-    height: 7vh;
-
-    background-color: #191414;
-}
-
 #navSeperator{
     padding-left: 100px;
     float:right;
 }
 
 #logo{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 #profileButton{
@@ -142,18 +144,33 @@ section{
 }
 
 #logDiv{
-    height: 92vh;
+    height: 90vh;
     width: 30vw;
     float: right;
 
     background-color: lightpink;
 }
 
-#logDiv p{
-    padding: 10px;
+#displayBoardBg{
+    background-color:white;
+    height:60vh;
 }
+
 
 #logBottomBar{
     position:absolute;
-    bottom:0;
+    bottom: 10px;
+    padding: 5px;
+
+    background:white;
+}
+
+#logBottomBar input{
+    width: 25vw;
+    padding-right: 5px;
+}
+
+#chatoutput{
+    padding: 10px;
+    font-weight: normal;
 }
