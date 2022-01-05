@@ -49,6 +49,11 @@ section{
     background-color: black;
 }
 
+#navSeperator{
+    background-color: aqua;
+    padding-left: 100px;
+}
+
 #logo{
     width: 30px;
     height: 40px;

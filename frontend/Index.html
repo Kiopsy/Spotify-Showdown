@@ -4,16 +4,19 @@
         <link rel="stylesheet" type="text/css" href="style.css"></link>
         <script src="main.js"></script>
         <title>Showdown Homepage</title>
+        <link rel= "shortcut icon" type="image/png" href="assets/SpotifyShowdownLogo.png"/>
 
     </head>
     <body>
         <nav id="navBar">
             <ul>
-                <li><a>Spotify Showdown</a></li>
                 <li><img id="logo" src= "assets/SpotifyShowdownLogoCropped.png"></li>
-                <li><button id="muteButton" onclick= "mute()">M</button></li>
-                <li><button id="settingsButton" onclick= "settings()">S</button></li>
-                <li><button id="profileButton" onclick= "profile()">Username<img id= "pfpimg" src= "assets/nopfp.png"></button></li>
+                <li><a>Spotify Showdown</a></li>
+                <div id="navSeperator">
+                    <li><button id="muteButton" onclick= "mute()">M</button></li>
+                    <li><button id="settingsButton" onclick= "settings()">S</button></li>
+                    <li><button id="profileButton" onclick= "profile()">Username<img id= "pfpimg" src= "assets/nopfp.png"></button></li>
+                </div>
             </ul>
         </nav>
 
