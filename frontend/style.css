@@ -44,9 +44,14 @@ section{
 
 #navBar{
     width: 100vw;
-    height: 8vh;
+    height: 7vh;
 
     background-color: black;
+}
+
+#logo{
+    width: 30px;
+    height: 40px;
 }
 
 #profileButton{
@@ -73,7 +78,7 @@ section{
 }
 
 #gameWindow{
-    height: 600px;
+    height: 550px;
     width: 49vw;
     margin: 0;
     padding: 0px;
