@@ -1,17 +1,17 @@
-function alertTest(){
-    alert("Testing alert!")
-}
-
 function mute(){
-    alert("Testing mute")
+    //https://stackoverflow.com/questions/14044761/how-to-mute-all-sound-in-a-page-with-js
+    var elems = document.querySelectorAll("video, audio");
+    [].forEach.call(elems, function(elem) { muteMe(elem); });
+
+    alert("Testing mute, has not been tested with audio on page")
 }
 
 function settings(){
-    alert("Testing settings")
+    alert("Look at what a settings page is like for pokemon showdown")
 }
 
 function profile(){
-    alert("Testing profile")
+    alert("Link to profile page, if signed in show stats, if not log in. Change to have log in button showing when there is no account linked")
 }
 
 //https://code.tutsplus.com/tutorials/how-to-create-a-simple-web-based-chat-application--net-5931
