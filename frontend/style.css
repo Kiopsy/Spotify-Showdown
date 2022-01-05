@@ -1,10 +1,21 @@
+/*
+Spotify Reference Colors
+black: #191414
+white: #ffffff
+green: lightpink
+
+My colors: lightpink aka #ffb6c1 
+
+*/
+
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Arial';
+    font-weight: bold;
     font-size: 15px;
 
     margin: 0px;
 
-    background-color: darkgray;
+    background-image: linear-gradient(#363232, #191414);
 }
 
 a{
@@ -46,7 +57,7 @@ section{
     width: 100vw;
     height: 7vh;
 
-    background-color: black;
+    background-color: #191414;
 }
 
 #navSeperator{
@@ -55,7 +66,7 @@ section{
 }
 
 #logo{
-    width: 30px;
+    width: 40px;
     height: 40px;
 }
 
@@ -89,10 +100,10 @@ section{
     padding: 0px;
     float: left;
 
-    color: black;
+    color: #191414;
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: #191414;
     border-top: 0px;
     /*border-right: 0px;*/
     border-left: 0px;
@@ -103,7 +114,7 @@ section{
 }
 
 #gameColumn p{
-    color: black;
+    color: #ffffff;
     text-align: center;
     width: 100px;
     padding-left: 5px;
@@ -127,7 +138,7 @@ section{
     border-bottom: 0px;
     border-right: 0px;
 
-    background-color: lightgreen;
+    background-color: lightpink;
 }
 
 #logDiv p{
@@ -145,5 +156,5 @@ section{
 
     text-align:center;
 
-    background-color: black;
+    background-color: #191414;
 }
