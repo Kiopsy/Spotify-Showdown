@@ -1,0 +1,139 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+
+    margin: 0px;
+
+    background-color: darkgray;
+}
+
+a{
+    font-size: 20px; 
+    color: white;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+}
+
+li{
+    padding: 20px 16px;
+
+    display: block;
+    float: left;
+}
+
+section{
+    margin: 0px;
+}
+
+#navBar button{
+    font-size: 15px;
+
+    float: right;
+
+    border-style: none;
+    border-radius: 5px;
+}
+
+#navBar{
+    width: 100vw;
+    height: 7vh;
+
+    background-color: black;
+}
+
+#profileButton{
+    padding: 8px;
+    padding-top: 0px;
+}
+
+#pfpimg{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    padding-left: 10px;
+}
+
+#gameColumn{
+    width: 50vw;
+    float: left;
+}
+
+#gameColumn li{
+    display: inline;
+    padding-top: 0;
+    padding-left: 0px;
+}
+
+#gameWindow{
+    height: 550px;
+    width: 49vw;
+    margin: 0;
+    padding: 0px;
+    float: left;
+
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-top: 0px;
+    /*border-right: 0px;*/
+    border-left: 0px;
+
+    background-color: white;
+    /*background-image: url("PokemonBattleBackground.png");
+    background-size: cover;*/
+}
+
+#gameColumn p{
+    color: black;
+    text-align: center;
+    width: 100px;
+    padding-left: 5px;
+}
+
+#albumList img{
+    height: 90px;
+    width: 90px;
+    padding-top: 5px;
+}
+
+#logDiv{
+    height: 92vh;
+    width: 30vw;
+    float: right;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+
+    background-color: lightgreen;
+}
+
+#logDiv p{
+    padding: 10px;
+}
+#albumList{
+    padding: 5px;
+    padding-left: 25px;
+}
+
+#albumList div{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+    text-align:center;
+
+    background-color: black;
+}
