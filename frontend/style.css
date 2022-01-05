@@ -7,7 +7,7 @@ body{
     background-color: darkgray;
 }
 
-h1{
+a{
     font-size: 20px; 
     color: white;
 }
@@ -23,7 +23,7 @@ ul {
 }
 
 li{
-    padding: 10px 16px;
+    padding: 20px 16px;
 
     display: block;
     float: left;
@@ -44,8 +44,21 @@ section{
 
 #navBar{
     width: 100vw;
+    height: 8vh;
 
     background-color: black;
+}
+
+#profileButton{
+    padding: 8px;
+    padding-top: 0px;
+}
+
+#pfpimg{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    padding-left: 10px;
 }
 
 #gameColumn{
@@ -56,14 +69,14 @@ section{
 #gameColumn li{
     display: inline;
     padding-top: 0;
-    padding-left: 0;
+    padding-left: 0px;
 }
 
 #gameWindow{
-    height: 650px;
+    height: 600px;
     width: 49vw;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     float: left;
 
     color: black;
@@ -79,8 +92,21 @@ section{
     background-size: cover;*/
 }
 
+#gameColumn p{
+    color: black;
+    text-align: center;
+    width: 100px;
+    padding-left: 5px;
+}
+
+#albumList img{
+    height: 90px;
+    width: 90px;
+    padding-top: 5px;
+}
+
 #logDiv{
-    height: 90vh;
+    height: 92vh;
     width: 30vw;
     float: right;
 
