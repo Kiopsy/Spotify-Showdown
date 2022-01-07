@@ -21,10 +21,11 @@ function send(){
 
     const d = new Date();
     var half = "am";
-    if(d.getHours() > 11){
-        half = "pm";
-    }
-    time = "" + (d.getHours() % 12) + ':' + d.getMinutes() +" " + half;
+    if(d.getHours() > 11){half = "pm";}
+    
+    var mins = d.getMinutes();
+    if(mins < 10){mins = "0" + mins}
+    time = "" + (d.getHours() % 12) + ':' + mins +" " + half;
     //time += " - " + (d.getMonth() + 1) + "/" + d.getDate() + "/" + d.getFullYear()
      
     document.getElementById("chatoutput").innerHTML += "\n" + s + " - " + time; //newline does not work as expected

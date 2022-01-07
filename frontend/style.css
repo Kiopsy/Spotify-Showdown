@@ -112,7 +112,16 @@ section{
     width: 19vw;
     height: 19vh;
     float: left;
-    background-color: orange;
+    background-color: lightpink;
+}
+#moveDiv button{
+    height: 70px;
+    width: 140px;
+    
+    border-radius: 10px;
+    border-style: solid;
+
+    background-color: whitesmoke;
 }
 
 #gameColumn p{
@@ -148,12 +157,12 @@ section{
     width: 30vw;
     float: right;
 
-    background-color: lightpink;
+    background-color: orange;
 }
 
 #displayBoardBg{
     background-color:white;
-    height:60vh;
+    height:85vh;
 }
 
 
@@ -166,7 +175,7 @@ section{
 }
 
 #logBottomBar input{
-    width: 25vw;
+    width: 26vw;
     padding-right: 5px;
 }
 
